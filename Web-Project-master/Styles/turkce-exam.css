@@ -1,6 +1,19 @@
 body {
+   
     font-family: Open Sans;
 }
+ 
+.hero-image {
+    background-image: url("https://img.freepik.com/free-photo/back-school-background-with-school-supplies-copy-space_23-2148958977.jpg?w=2000"); /* The image used */
+    background-color: #cccccc; /* Used if the image is unavailable */
+    width: 100%;
+    height: 800px; /*n You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    
+  /* background-attachment: fixed; */
+  } 
 
 h1 {
     text-align: center;
@@ -38,6 +51,7 @@ h1 {
 }
 
 #container {
+    
     width:50%;
    
     margin:auto;
@@ -47,7 +61,6 @@ h1 {
     border-radius:5px;
     color: #FFFFFF;
     font-weight: bold;
-    box-shadow: 10px 10px 10px #888;
 }
 
 ul {
